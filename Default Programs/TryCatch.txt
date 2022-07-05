@@ -1,0 +1,9 @@
+try {
+    throw new NullPointerException("");
+} catch(ArrayIndexOutOfBoundsException e) {
+    System.out.println("index") ;
+} catch(RuntimeException e) {
+    System.out.println("RT") ;
+} finally {
+    System.out.println("!") ;
+}
